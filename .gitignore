@@ -1,4 +1,7 @@
 .env
+!.env.example
+!.env.age
+!.env.gpg
 *.db
 *.db-shm
 *.db-wal
