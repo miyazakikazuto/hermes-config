@@ -1,0 +1,1 @@
+Pemilik memiliki 2 akun Telegram yang diizinkan mengakses Hermes bot: ID utama 6988384384 dan ID kedua 1318997833. Konfigurasi telegram.allowed_users sudah di-set ke kedua ID.

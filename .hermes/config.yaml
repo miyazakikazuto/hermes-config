@@ -1,0 +1,48 @@
+model:
+  default: stepfun/step-3.7-flash:free
+  provider: nous
+  base_url: https://inference-api.nousresearch.com/v1
+  context_length: 80000
+agent:
+  max_turns: 80
+  tool_use_enforcement: strict
+display:
+  tool_progress: command
+_config_version: 33
+session_reset:
+  mode: none
+platform_toolsets:
+  cli:
+    - browser
+    - clarify
+    - code_execution
+    - computer_use
+    - cronjob
+    - delegation
+    - file
+    - image_gen
+    - memory
+    - session_search
+    - skills
+    - terminal
+    - todo
+    - tts
+    - vision
+    - web
+known_plugin_toolsets:
+  cli:
+    - spotify
+telegram:
+  allowed_users: 6988384384,1318997833
+  dm_policy: open
+  group_policy: open
+gateway:
+  allow_all_users: false
+compression:
+  enabled: true
+  threshold: 0.5
+  target_ratio: 0.22
+  protect_last_n: 14
+  protect_first_n: 2
+prompt_caching:
+  cache_ttl: 5m
