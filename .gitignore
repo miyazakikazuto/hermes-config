@@ -38,3 +38,4 @@ sessions/
 config.yaml.bak.*
 state*
 .DS_Store
+.hermes/
