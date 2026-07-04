@@ -1,7 +1,35 @@
+# Secrets
 .env
 !.env.example
 !.env.age
 !.env.gpg
+
+# Runtime & state
+state.db*
+gateway.*
+kanban.db*
+auth.lock
+cache
+context_length_cache.yaml
+audio_cache
+image_cache
+models_dev_cache.json
+ollama_cloud_models_cache.json
+channel_directory.json
+
+# Directories
+logs/
+gateway/
+sandboxes/
+platforms/
+pastes/
+pairing/
+shared/
+state/
+state-snapshots/
+sessions/
+
+# Misc
 *.db
 *.db-shm
 *.db-wal
@@ -9,6 +37,4 @@
 *.lock
 config.yaml.bak.*
 state*
-sessions/
-logs/
-cache/
+.DS_Store
