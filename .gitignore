@@ -1,0 +1,13 @@
+.env
+*.db
+*.db-shm
+*.db-wal
+*.pid
+*.lock
+config.yaml.bak.*
+state*
+sessions/
+logs/
+cache/
+memory/*
+!memory/.gitkeep
